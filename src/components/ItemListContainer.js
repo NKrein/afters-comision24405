@@ -20,7 +20,6 @@ const ItemListContainer = () => {
       .then((res) => res.json())
       .then((res) => {
         setProducts(res);
-        setLoading(true);
       })
       .catch((err) => console.log(err))
       .finally(() => setLoading(false))
