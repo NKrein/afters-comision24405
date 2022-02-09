@@ -6,6 +6,7 @@ import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Cart from './components/Cart';
 import CartProvider from './context/CartProvider';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
